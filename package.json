@@ -5,15 +5,15 @@
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
-      "run": "pm2 start . --deep-monitoring --attach --name mrsky-cyber || node .",
-      "mrsky-cyber ": "pm2 start . --deep-monitoring --attach --name mrsky-cyber || node .",
-      "start": "pm2 start . --attach --name Kingjux",
-      "stop": "pm2 stop Kingjux",
-      "heroku-postbuild": "git clone https://github.com/mrsky-cyber/Mrsky-md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/mrsky-cyber/Mrsky-md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "run": "pm2 start . --deep-monitoring --attach --name Petesky-svg || node .",
+      "Petesky-svg ": "pm2 start . --deep-monitoring --attach --name Petesky-svg || node .",
+      "start": "pm2 start . --attach --name Petesky-svg",
+      "stop": "pm2 stop Petesky-svg",
+      "heroku-postbuild": "git clone https://github.com/Petesky-svg/Mrsky-md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/Petesky-svg/Mrsky-md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
-   "author": "mrsky-cyber",
+   "author": "Petesky-svg",
    "license": "Apache-2.0",
    "dependencies": {
       "@adiwajshing/keyed-db": "^0.2.4",
@@ -75,10 +75,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/mrsky-cyber/Mrsky-md.git"
+      "url": "git+https://github.com/Petesky-svg/Mrsky-md.git"
    },
    "bugs": {
-      "url": "https://github.com/mrsky-cyber/Mrsky-md/issues"
+      "url": "https://github.com/Petesky-svg/Mrsky-md/issues"
    },
-   "homepage": "https://github.com/mrsky-cyber/Mrsky-md#readme"
+   "homepage": "https://github.com/Petesky-svg/Mrsky-md#readme"
 }
