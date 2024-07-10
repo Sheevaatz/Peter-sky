@@ -1,13 +1,13 @@
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/mrsky-cyber/Mrsky-md.git /root/mrsky-cyber
+RUN git clone https://github.com/Petesky-svg/Mrsky-md.git /root/Petesky-svg
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
-RUN rm -rf /root/mrsky-cyber/node_modules
+RUN rm -rf /root/Petesky-svg/node_modules
 
 # Install dependencies
-WORKDIR /root/mrsky-cyber
+WORKDIR /root/Petesky-svg
 RUN npm install
 
 # Add additional Steps To Run...
